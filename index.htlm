@@ -1,0 +1,8 @@
+<head>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Lien vers le fichier CSS -->
+</head>
+<body>
+    <!-- Contenu de la page -->
+
+    <script src="js/script.js"></script> <!-- Lien vers le fichier JavaScript -->
+</body>
