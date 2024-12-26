@@ -41,6 +41,56 @@
 
     <img src="/Images/VivoPress bulle - 13.09.2024.jpg" alt="Vivvoy" width="333" height="333">
 
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carte Interactive de la France</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+        <style>
+            #map {
+                height: 600px; /* Hauteur de la carte */
+            }
+        </style>
+    </head>
+    <body>
+    
+    <h1>Carte Interactive de la France</h1>
+    <div id="map"></div>
+    
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        // Initialiser la carte
+        var map = L.map('map').setView([46.6034, 1.8883], 5); // Coordonnées de la France
+    
+        // Ajouter une couche de tuiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+    
+        // Ajouter des marqueurs
+        var marker = L.marker([48.8566, 2.3522]).addTo(map) // Paris
+            .bindPopup('Bienvenue à Paris!')
+            .openPopup();
+    
+        var marker2 = L.marker([43.6108, 3.8767]).addTo(map) // Montpellier
+            .bindPopup('Découvrez Montpellier!');
+    
+        var marker3 = L.marker([45.7640, 4.8357]).addTo(map) // Lyon
+            .bindPopup('Visitez Lyon!');
+
+        var markerThonon = L.marker([46.3642, 6.4822]).addTo(map) // Thonon-les-Bains
+            .bindPopup('Bienvenue à Thonon-les-Bains!');
+    
+        // Vous pouvez ajouter d'autres marqueurs de la même manière
+    </script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+
+    </body>
+    </html>
 
     <main>
         <!-- Section principale avec les articles les plus importants -->

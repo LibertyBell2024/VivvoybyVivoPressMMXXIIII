@@ -2,13 +2,15 @@
 
 ## SUMMARY
 
-www.vivvoy.fr© 
+www.vivvoy.fr © VivoPress July MMXXIIII
 
 Vivre & voyager en France 
 Living & traveling in France
+
 Votre site d’informations touristiques, patrimoniales et culturelles, édité par vous pour vous.
 
 Your site of tourism, heritage and cultural information, edited by you for you.
+
 
 Parlez-nous de vous, il n’y a que cela qui nous intéresse.
 Tell us about you, there is only what interests us.            
@@ -18,6 +20,7 @@ Pour plus de renseignements, consultez-nous.
 
 Vivvoy is a publication of VivoPress 2.0, the publisher of your passions. 
 For more information, contact us.
+
 contact@vivvopress.fr
 
 
