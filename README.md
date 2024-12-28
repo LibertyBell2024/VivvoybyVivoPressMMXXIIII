@@ -21,7 +21,7 @@ Pour plus de renseignements, consultez-nous.
 Vivvoy is a publication of VivoPress 2.0, the publisher of your passions. 
 For more information, contact us.
 
-contact@vivvopress.fr
+contact@vivopress.fr
 
 
 ©  VivoPress 07.2024     
