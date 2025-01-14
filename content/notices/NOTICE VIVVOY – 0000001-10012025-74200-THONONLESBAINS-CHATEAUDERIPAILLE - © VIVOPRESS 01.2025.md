@@ -45,11 +45,12 @@ Longitude : 6° 29' 12" Est
 
 Adresse et Contact 
 
- 
 
 Adresse : Château de Ripaille, 83 Av. de Ripaille, 74200 Thonon-les-Bains, France 
 
 Téléphone : +33 4 50 26 64 44 
+
+Site : www.ripaille.fr
 
 Horaires d'Ouverture 
 
@@ -116,37 +117,28 @@ Italien
 INFORMATIONS COROLAIRES A DECOUVRIR 
 
  
-
- 
-
 La Forêt de Ripaille : Une vieille chênaie de 53 hectares, ancien terrain de chasse des Comtes de Savoie3 
 
  
-
 L'Arboretum-Sylvetum André Engel : Une collection de 58 essences d'arbres différentes plantées entre 1930 et 1934 sur 19 hectares 
+
 
 La Clairière des Justes : Un mémorial en hommage aux personnes ayant sauvé des Juifs pendant la Seconde Guerre mondiale 
 
  
-
 Le Sentier Géoroute : Un parcours reliant le château aux bois de Ripaille, offrant une promenade à travers les vignes avec vue sur la Dent d'Oche 
 
  
-
 Le vignoble de Ripaille : Vin de Ripaille AOC 
 
  
-
  
 
 NOTICE VIVVOY – 10012025-74200-THONONLESBAINS-CHATEAUDERIPAILLE - © VIVOPRESS 01.2025 
 
+
+
 ACTIONS 
 
-AIMER // PARTAGER // CONTRIBUER 
 
- IMPRIMER // ENREGISTRER // COMPLETER // AJOUTER 
-
- 
-
- 
+AIMER // PARTAGER // CONTRIBUER // IMPRIMER // ENREGISTRER // COMPLETER // AJOUTER 
