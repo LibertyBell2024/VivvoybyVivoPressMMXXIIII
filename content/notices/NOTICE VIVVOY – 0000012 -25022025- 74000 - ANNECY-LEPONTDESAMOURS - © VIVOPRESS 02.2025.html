@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 24.8.5.2 (Windows)"/>
+	<meta name="author" content="Philippe Marclay"/>
+	<meta name="created" content="2025-01-10T16:22:45"/>
+	<meta name="changed" content="2025-02-26T15:23:07.269000000"/>
+	<meta name="AppVersion" content="15.0000"/>
+	<style type="text/css">
+		@page { size: 21cm 29.7cm; margin-left: 2.54cm; margin-right: 2.54cm; margin-top: 1.27cm; margin-bottom: 1.27cm }
+		p { color: #000000; line-height: 115%; text-align: left; orphans: 2; widows: 2; margin-bottom: 0.25cm; direction: ltr; background: transparent }
+		p.western { font-family: "Aptos", serif; font-size: 12pt; so-language: fr-FR }
+		p.cjk { font-family: "Aptos"; font-size: 12pt; so-language: en-US }
+		p.ctl { font-family: ; font-size: 12pt; so-language: ar-SA }
+		h1 { color: #0f4761; line-height: 115%; text-align: left; page-break-inside: avoid; orphans: 2; widows: 2; margin-top: 0.64cm; margin-bottom: 0.14cm; direction: ltr; background: transparent; page-break-after: avoid }
+		h1.western { font-family: "Aptos Display", sans-serif; font-size: 20pt; so-language: fr-FR }
+		h1.cjk { font-family: "Aptos"; font-size: 20pt; so-language: en-US }
+		h1.ctl { font-family: ; font-size: 20pt; so-language: ar-SA }
+		h2 { color: #0f4761; line-height: 115%; text-align: left; page-break-inside: avoid; orphans: 2; widows: 2; margin-top: 0.28cm; margin-bottom: 0.14cm; direction: ltr; background: transparent; page-break-after: avoid }
+		h2.western { font-family: "Aptos Display", sans-serif; font-size: 16pt; so-language: fr-FR }
+		h2.cjk { font-family: "Aptos"; font-size: 16pt; so-language: en-US }
+		h2.ctl { font-family: ; font-size: 16pt; so-language: ar-SA }
+		h3 { color: #000000; line-height: 115%; text-align: left; orphans: 2; widows: 2; margin-top: 0.25cm; margin-bottom: 0.21cm; direction: ltr; background: transparent; page-break-after: avoid }
+		h3.western { font-family: "Liberation Serif", serif; font-size: 14pt; so-language: fr-FR; font-weight: bold }
+		h3.cjk { font-family: "Segoe UI"; font-size: 14pt; so-language: en-US; font-weight: bold }
+		h3.ctl { font-family: "Tahoma"; font-size: 14pt; so-language: ar-SA; font-weight: bold }
+		h4 { color: #000000; line-height: 115%; text-align: left; orphans: 2; widows: 2; margin-top: 0.21cm; margin-bottom: 0.21cm; direction: ltr; background: transparent; page-break-after: avoid }
+		h4.western { font-family: "Liberation Sans", sans-serif; font-size: 13pt; so-language: fr-FR; font-style: italic; font-weight: bold }
+		h4.cjk { font-family: "Microsoft YaHei"; font-size: 13pt; so-language: en-US; font-style: italic; font-weight: bold }
+		h4.ctl { font-family: "Lucida Sans"; font-size: 13pt; so-language: ar-SA; font-style: italic; font-weight: bold }
+		a:link { color: #467886; text-decoration: underline }
+		a:visited { color: #800000; text-decoration: underline }
+		strong { font-weight: bold }
+	</style>
+</head>
+<body lang="fr-FR" text="#000000" link="#467886" vlink="#800000" dir="ltr">
+<div title="header">
+	<table width="594" cellpadding="7" cellspacing="0">
+		<col width="179"/>
+		<col width="187"/>
+		<col width="186"/>
+		<tr valign="top">
+			<td width="179" height="6" style="border: none; padding: 0cm"><p align="left" style="orphans: 2; widows: 2; margin-left: -0.2cm">
+				<br/>
+
+				</p>
+			</td>
+			<td width="187" style="border: none; padding: 0cm"><p align="center" style="orphans: 2; widows: 2">
+				<br/>
+
+				</p>
+			</td>
+			<td width="186" style="border: none; padding: 0cm"><p align="right" style="orphans: 2; widows: 2; margin-right: -0.2cm">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+	</table>
+	<p style="line-height: 100%; margin-bottom: 1.17cm"><br/>
+
+	</p>
+</div><p class="western" align="center" style="margin-top: 0.32cm; margin-bottom: 0.21cm">
+<strong><span style="font-variant: normal"><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><b>:
+</b></span></span></font></font></font></span></strong><strong><span style="font-variant: normal"><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal">Annecy,
+la Venise des Alpes :</span></span></font></font></font></span></strong><span style="font-variant: normal"><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><b><br/>
+</b></span></span></font></font></font></span><span style="font-variant: normal"><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><span style="font-weight: normal">&nbsp;:
+</span></span></span></font></font></font></span><strong><span style="font-variant: normal"><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><span style="font-weight: normal">Le
+Pont des Amours, trait d’union entre lac et cité :</span></span></span></font></font></font></span></strong></p>
+<p class="western" align="justify" style="font-variant: normal; font-style: normal; font-weight: normal; margin-top: 0.32cm; margin-bottom: 0.21cm">
+<br/>
+<br/>
+
+</p>
+<p class="western" align="justify"><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Le
+</b></font></font><strong><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Pont
+des Amours</b></font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt"><b>
+d'Annecy est bien plus qu'une simple passerelle. Symbole de l'amour
+et de la romance, il a été construit en bois en 1845, puis en fer
+forgé en 1907, témoignant de l'évolution d'Annecy. Lieu mythique
+pour les amoureux, un baiser au centre du pont serait gage d'une
+union éternelle. Il offre également une vue imprenable sur le lac
+et les montagnes environnantes. Aujourd'hui, il est un symbole
+incontournable du patrimoine et de l'identité d'Annecy.</b></font></font></p>
+<p class="western" align="justify"><br/>
+<br/>
+
+</p>
+<p class="western" align="justify"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt">Histoire
+de la ville d’Annecy</font></font></font></strong></p>
+<p class="western" align="justify"><font face="Roboto"><font size="3" style="font-size: 13pt">Annecy,
+surnommée la « </font></font><strong><font face="Roboto"><font size="3" style="font-size: 13pt">Venise
+des Alpes</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+», est une ville chargée d'histoire située au bord du lac éponyme,
+en Haute-Savoie. Ses origines remontent à l'Antiquité, avec des
+traces d'occupation datant du IIe siècle av. J.-C., lorsque les
+Romains s'installèrent dans la région. Après une période de
+déclin, la ville connut une renaissance à la fin du XIIe siècle,
+lorsque les comtes de Genève en firent leur capitale.</font></font></p>
+<p class="western" align="justify"><br/>
+<br/>
+
+</p>
+<p class="western" align="justify"><font face="Roboto"><font size="3" style="font-size: 13pt">Au
+XIIIe siècle, les comtes agrandirent le château, renforçant
+l'importance d'Annecy. Un événement marquant survint au XIVe siècle
+lorsque Robert de Genève, né au château d'Annecy, devint le pape
+</font></font><strong><font face="Roboto"><font size="3" style="font-size: 13pt">Clément
+VII</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+à Avignon, provoquant le </font></font><strong><font face="Roboto"><font size="3" style="font-size: 13pt">Grand
+Schisme d'Occident</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">.
+Au XVe siècle, la ville passa sous le contrôle de la Maison de
+Savoie, connaissant plusieurs périodes d'apanage qui lui conférèrent
+une certaine autonomie.</font></font></p>
+<p class="western" align="justify"><br/>
+<br/>
+
+</p>
+<p class="western" align="justify"><font face="Roboto"><font size="3" style="font-size: 13pt">Le
+XVIe siècle vit Annecy jouer un rôle crucial dans la </font></font><strong><font face="Roboto"><font size="3" style="font-size: 13pt">Contre-Réforme
+catholique</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+sous l'impulsion de </font></font><strong><font face="Roboto"><font size="3" style="font-size: 13pt">François
+de Sales</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">,
+lui valant le surnom de « </font></font><strong><font face="Roboto"><font size="3" style="font-size: 13pt">Rome
+des Alpes</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+». Au XIXe siècle, la ville connut un essor industriel important,
+avant de devenir une destination touristique prisée au 20e siècle.</font></font></p>
+<p class="western" align="justify"><br/>
+<br/>
+
+</p>
+<p class="western" align="justify"><font face="Roboto"><font size="3" style="font-size: 13pt">Annecy
+possède un riche patrimoine architectural et culturel, incluant la
+vieille ville avec ses ruelles pavées, le </font></font><strong><font face="Roboto"><font size="3" style="font-size: 13pt">Palais
+de l'Île</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">,
+le </font></font><strong><font face="Roboto"><font size="3" style="font-size: 13pt">château
+d'Annecy</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">,
+la </font></font><strong><font face="Roboto"><font size="3" style="font-size: 13pt">cathédrale
+Saint-Pierre</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">,
+les canaux qui traversent la ville, et le lac d'Annecy.</font></font></p>
+<p class="western" align="justify"><br/>
+<br/>
+
+</p>
+<p class="western" align="justify"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt">Le
+Pont des Amours, un lieu incontournable d’Annecy</font></font></font></strong></p>
+<p class="western" align="justify"><font face="Roboto"><font size="3" style="font-size: 13pt">Parmi
+les sites emblématiques d'Annecy, le </font></font><strong><font face="Roboto"><font size="3" style="font-size: 13pt">Pont
+des Amours</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+occupe une place particulière. L'idée d'un pont traversant le canal
+du Vassé remonte à 1836, dans le cadre d'un projet d'aménagement
+proposé par </font></font><strong><font face="Roboto"><font size="3" style="font-size: 13pt">Samuel
+Vaucher-Crémieux</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">.
+La première passerelle en bois fut construite en 1845 à l'occasion
+de la visite de </font></font><strong><font face="Roboto"><font size="3" style="font-size: 13pt">Charles-Albert
+de Savoie</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+(1798-1849), le Roi réformateur du Piémont-Sardaigne.</font></font></p>
+<p class="western" align="justify"><br/>
+<br/>
+
+</p>
+<p class="western" align="justify"><font face="Roboto"><font size="3" style="font-size: 13pt">En
+1859, une nouvelle passerelle en fonte à trois arches fut érigée,
+conçue par l'architecte </font></font><strong><font face="Roboto"><font size="3" style="font-size: 13pt">Ignace
+Monnet</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">.
+Cependant, cette structure s'avéra peu pratique et coûteuse à
+entretenir. Le pont actuel en fer forgé, conçu par </font></font><strong><font face="Roboto"><font size="3" style="font-size: 13pt">Charles
+Galletto</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">,
+architecte d'Annecy, et </font></font><strong><font face="Roboto"><font size="3" style="font-size: 13pt">Gaspard
+Fruaüf</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">,
+fut inauguré le </font></font><strong><font face="Roboto"><font size="3" style="font-size: 13pt">8
+novembre 1907</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">.</font></font></p>
+<p class="western" align="justify"><br/>
+<br/>
+
+</p>
+<p class="western" align="justify"><font face="Roboto"><font size="3" style="font-size: 13pt">Le
+nom « </font></font><strong><font face="Roboto"><font size="3" style="font-size: 13pt">Pont
+des Amours</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+» n'est apparu que dans la seconde moitié du XXe siècle. Plusieurs
+légendes entourent son origine : certains l'attribuent aux cygnes
+qui venaient s'y reproduire, d'autres à la présence de prostituées
+au XIXe siècle.</font></font></p>
+<p class="western" align="justify"><br/>
+<br/>
+
+</p>
+<p class="western" align="justify"><font face="Roboto"><font size="3" style="font-size: 13pt">Aujourd'hui,
+le Pont des Amours est l'un des sites les plus photographiés
+d'Annecy, offrant une vue imprenable sur le lac et les montagnes
+environnantes (Semnoz, Mont Baron, Tournette, Parmelan, Roc des
+Bœufs, Massif des Bornes et Massif des Bauges).</font></font></p>
+<p class="western" align="justify"><br/>
+<br/>
+
+</p>
+<p class="western" align="justify"><font face="Roboto"><font size="3" style="font-size: 13pt">De
+nombreux amoureux et jeunes mariés du monde entier viennent s’y
+faire photographier pour immortaliser leur union et la force de leur
+amour, en espérant qu'il dure aussi longtemps que les montagnes
+alpines. On dit que ceux qui s’y embrassent resteront unis pour la
+vie. Il symbolise parfaitement l'alliance entre patrimoine historique
+et beauté naturelle qui fait la renommée d'Annecy.</font></font></p>
+<p class="western" align="justify"><br/>
+<br/>
+
+</p>
+<p class="western" align="justify"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt">Conclusion</font></font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt"><br/>
+Annecy
+fut définitivement rattachée à la France en 1860, sous le règne
+de Napoléon III. Depuis lors, la ville a continué à se développer,
+préservant son riche patrimoine, tout en s'affirmant comme une
+destination touristique de premier plan, alliant histoire, culture et
+beauté naturelle.</font></font></p>
+<p class="western" align="justify" style="font-variant: normal; font-style: normal; font-weight: normal; margin-top: 0.32cm; margin-bottom: 0.21cm">
+<br/>
+<br/>
+
+</p>
+<p class="western" align="justify" style="font-variant: normal; font-style: normal; font-weight: normal; margin-bottom: 0cm">
+<br/>
+
+</p>
+<p class="western" align="justify" style="margin-bottom: 0cm"><span style="font-variant: normal"><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><b>Chronologie
+historique complète sur la ville d’Annecy</b></span></span></font></font></font></span></p>
+<p class="western" align="justify" style="font-weight: normal; margin-bottom: 0cm">
+<span style="font-variant: normal"><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal">pour
+en savoir plus sur Annecy, son Histoire et sa région </span></span></font></font></font></span>
+</p>
+<p class="western" align="justify" style="font-variant: normal; font-style: normal; font-weight: normal; margin-bottom: 0cm">
+<br/>
+
+</p>
+<h2 class="western" align="justify" style="margin-top: 0cm; margin-bottom: 0cm">
+<strong><span style="font-variant: normal"><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal">Antiquité</span></span></font></font></font></span></strong></h2>
+<p class="western" align="justify"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt">IIe
+siècle av. J.-C.</font></font></font></strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt">
+:</font></font></font></p>
+<ul>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><font face="Roboto"><font size="3" style="font-size: 13pt">Premières
+	traces d’occupation romaine dans la région d’Annecy. Un vicus
+	(bourg) s’établit sur la rive nord du lac, probablement un relais
+	commercial et artisanal sur la voie reliant Vienne (Gaule) à
+	l’Italie.</font></font></p></li>
+	<li><p class="western" align="justify"><font face="Roboto"><font size="3" style="font-size: 13pt">Des
+	vestiges de thermes romains et des fragments de mosaïques ont été
+	retrouvés à Annecy-le-Vieux, témoignant d’une présence
+	organisée. </font></font>
+	</p></li>
+</ul>
+<h2 class="western" align="justify"><strong><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt">Moyen
+Âge</font></font></font></strong></h2>
+<h3 class="western" align="justify"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><b>XIIe
+siècle</b></font></font></font></strong></h3>
+<ul>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">Vers
+	1107</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Fondation du prieuré de l’abbaye de Talloires sur les rives du
+	lac, influençant la vie religieuse locale.</font></font></p></li>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1132</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Construction d’une maison forte sur une île du Thiou, qui
+	deviendra le Palais de l’Isle, utilisé comme centre administratif
+	et judiciaire.</font></font></p></li>
+	<li><p class="western" align="justify"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1178</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Le comte Guillaume Ier de Genève établit Annecy-le-Neuf sur les
+	rives du Thiou, favorisant son expansion.</font></font></p></li>
+</ul>
+<h3 class="western" align="justify"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><b>XIIIe
+siècle</b></font></font></font></strong></h3>
+<ul>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1219</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Après un conflit avec les évêques de Genève, le comte
+	Guillaume II de Genève fait d’Annecy sa résidence principale. La
+	ville devient un centre politique et économique majeur.</font></font></p></li>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1250</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Le comte Rodolphe de Genève commence l’agrandissement du
+	château d’Annecy pour affirmer son autorité face aux évêques
+	de Genève.</font></font></p></li>
+	<li><p class="western" align="justify"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1293</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Annecy reçoit des franchises communales, accordées par </font></font><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Amédée
+	II de Genève</b></font></font><font face="Roboto"><font size="3" style="font-size: 13pt">,
+	permettant une certaine autonomie politique et économique aux
+	habitants.</font></font></p></li>
+</ul>
+<h2 class="western" align="justify"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt">XVe
+siècle</font></font></font></strong></h2>
+<ul>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1434-1444
+	et 1460-1491</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Pendant ces périodes d’apanage, Annecy bénéficie d’une
+	gestion plus souple sous les ducs de Savoie, favorisant le
+	développement du commerce.</font></font></p></li>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1478</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: </font></font><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Philibert
+	Ier de Savoie</b></font></font><font face="Roboto"><font size="3" style="font-size: 13pt">
+	séjourne à Annecy et renforce les défenses du château.</font></font></p></li>
+	<li><p class="western" align="justify"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1491</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Le comté de Genève est annexé au duché de Savoie, intégrant
+	définitivement Annecy à l’influence savoyarde.</font></font></p></li>
+</ul>
+<h2 class="western" align="justify"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt">XVIe
+siècle</font></font></font></strong></h2>
+<ul>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1514</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Annecy devient la capitale de l’apanage de Genevois, Faucigny et
+	Beaufort sous </font></font><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Philippe
+	de Savoie-Nemours</b></font></font><font face="Roboto"><font size="3" style="font-size: 13pt">.</font></font></p></li>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1536</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: La Réformation protestante est établie le 21 mai 1536 par
+	</font></font><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Guillaune
+	Farel</b></font></font><font face="Roboto"><font size="3" style="font-size: 13pt">
+	et </font></font><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Jean
+	Calvin</b></font></font><font face="Roboto"><font size="3" style="font-size: 13pt">
+	à Genève, qui en chasse les catholiques. Annecy devient un refuge
+	pour de nombreux habitants et communautés religieuses genevois
+	restés fidèles au Pape.</font></font></p></li>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1549</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Fondation du Collège Chappuisien par </font></font><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Eustache
+	Chappuis</b></font></font><font face="Roboto"><font size="3" style="font-size: 13pt">,
+	ancien conseiller de Charles Quint, qui contribue à l’éducation
+	et à la formation du clergé.</font></font></p></li>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1564</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Le comté de Genevois est érigé en duché par </font></font><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Emmanuel-Philibert
+	de Savoie</b></font></font><font face="Roboto"><font size="3" style="font-size: 13pt">.</font></font></p></li>
+	<li><p class="western" align="justify"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1592</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: </font></font><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Saint
+	François de Sales </b></font></font><font face="Roboto"><font size="3" style="font-size: 13pt">(1567-1622),
+	futur évêque de Genève et figure majeure de la Contre-Réforme
+	catholique, s’installe à Annecy. Il y fonde l’Ordre de la
+	Visitation avec </font></font><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Sainte
+	Jeanne de Chantal</b></font></font><font face="Roboto"><font size="3" style="font-size: 13pt">
+	en 1610.</font></font></p></li>
+</ul>
+<h2 class="western" align="justify"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt">XVIIe
+siècle</font></font></font></strong></h2>
+<ul>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1600</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Henri IV entre triomphalement dans Annecy après la guerre
+	franco-savoyarde.</font></font></p></li>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1618</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Canonisation de Saint François de Sales, renforçant l’influence
+	spirituelle d’Annecy.</font></font></p></li>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1651</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Première grande opération de désenvasement du Canal de Vassé.</font></font></p></li>
+	<li><p class="western" align="justify"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1681</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Sévère hiver, le lac d’Annecy gèle entièrement, permettant
+	aux habitants de le traverser à pied.</font></font></p></li>
+</ul>
+<h2 class="western" align="justify"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt">XVIIIe
+siècle</font></font></font></strong></h2>
+<ul>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1703-1713</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: La guerre de Succession d’Espagne entraîne une occupation
+	française d’Annecy.</font></font></p></li>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1711</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Crue catastrophique du lac, le niveau monte de 3,10 mètres,
+	inondant une partie de la ville.</font></font></p></li>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1712</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Achat de pompes à bras pour lutter contre les incendies, après
+	plusieurs sinistres majeurs.</font></font></p></li>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1728</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: </font></font><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Jean-Jacques
+	Rousseau</b></font></font><font face="Roboto"><font size="3" style="font-size: 13pt">,
+	alors jeune musicien et écrivain, s’installe à Annecy et y
+	rencontre </font></font><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Madame
+	de Warens</b></font></font><font face="Roboto"><font size="3" style="font-size: 13pt">,
+	qui joue un rôle clé dans son éducation et son éveil
+	philosophique.</font></font></p></li>
+	<li><p class="western" align="justify"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1792</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Lors de l’invasion de la Savoie par les troupes révolutionnaires
+	françaises, Annecy est intégrée au département du Mont-Blanc.</font></font></p></li>
+</ul>
+<h2 class="western" align="justify"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt">XIXe
+siècle</font></font></font></strong></h2>
+<ul>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1815</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Annecy est réintégrée au royaume de Piémont-Sardaigne après
+	la chute de </font></font><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Napoléon</b></font></font><font face="Roboto"><font size="3" style="font-size: 13pt">.</font></font></p></li>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1822</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Rétablissement de l’évêché d’Annecy.</font></font></p></li>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1845</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Construction de la première passerelle en bois du futur Pont des
+	Amours.</font></font></p></li>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1859</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Remplacement de la passerelle par un pont en fonte à trois
+	arches.</font></font></p></li>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1860</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Annecy et la Savoie sont rattachées à la France après un
+	plébiscite organisé sous </font></font><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Napoléon
+	III</b></font></font><font face="Roboto"><font size="3" style="font-size: 13pt">.</font></font></p></li>
+	<li><p class="western" align="justify"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1890</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Développement du tourisme avec la mise en place des premiers
+	bateaux à vapeur sur le lac.</font></font></p></li>
+</ul>
+<h2 class="western" align="justify"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt">XXe
+siècle</font></font></font></strong></h2>
+<ul>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1907</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Inauguration du Pont des Amours en fer forgé, devenu un symbole
+	de la ville.</font></font></p></li>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1940-1944</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Pendant l’Occupation allemande, Annecy est un centre actif de la
+	Résistance, notamment grâce aux </font></font><font face="Roboto"><font size="3" style="font-size: 13pt"><b>maquis
+	du plateau des Glières</b></font></font><font face="Roboto"><font size="3" style="font-size: 13pt">.</font></font></p></li>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">19
+	août 1944</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Libération d’Annecy par les Forces françaises de l’intérieur
+	après des combats contre l’armée allemande.</font></font></p></li>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1956</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Création du Parc naturel régional du massif des Bauges,
+	contribuant à la préservation du patrimoine naturel autour
+	d’Annecy.</font></font></p></li>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1964</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Premier festival international du film d’animation d’Annecy,
+	qui deviendra un événement mondial incontournable.</font></font></p></li>
+	<li><p class="western" align="justify"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">1973</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Inauguration du tunnel du Mont-Sion, améliorant la liaison entre
+	Annecy et Genève.</font></font></p></li>
+</ul>
+<h2 class="western" align="justify"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt">XXIe
+siècle</font></font></font></strong></h2>
+<ul>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">2010</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Annecy est candidate pour accueillir les Jeux olympiques d’hiver
+	de 2018, mais perd face à Pyeongchang.</font></font></p></li>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">2017</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: La ville fusionne avec plusieurs communes voisines
+	(Annecy-le-Vieux, Cran-Gevrier, Seynod, Meythet, Pringy) pour former
+	une commune nouvelle d’environ 130 000 habitants.</font></font></p></li>
+	<li><p class="western" align="justify" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">2021</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Classement du lac d’Annecy parmi les plus purs d’Europe, grâce
+	à des efforts environnementaux constants.</font></font></p></li>
+	<li><p class="western" align="justify"><strong><font face="Roboto"><font size="3" style="font-size: 13pt">Aujourd’hui</font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt">
+	: Annecy demeure une destination touristique majeure, alliant
+	patrimoine historique, nature préservée et événements culturels
+	internationaux.</font></font></p></li>
+</ul>
+<p class="western" align="justify" style="font-variant: normal; font-style: normal; font-weight: normal; margin-bottom: 0cm">
+<br/>
+
+</p>
+<h2 class="western" align="justify" style="margin-top: 0.64cm; margin-bottom: 0.21cm">
+<br/>
+<br/>
+
+</h2>
+<h2 class="western" align="justify" style="margin-top: 0.64cm; margin-bottom: 0.21cm">
+<span style="font-variant: normal"><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><b>Informations
+touristiques</b></span></span></font></font></font></span></h2>
+<h2 class="western" align="justify" style="margin-top: 0.64cm; margin-bottom: 0.21cm">
+<span style="font-variant: normal"><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><b>Géolocalisation</b></span></span></font></font></font></span></h2>
+<p class="western" align="justify" style="margin-left: 1.27cm; margin-top: 0.64cm; margin-bottom: 0.21cm">
+<span style="font-variant: normal"><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><b>Latitude:
+45° 54' 01&quot; Nord</b></span></span></font></font></font></span></p>
+<p class="western"><span style="font-variant: normal"><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><b>	</b></span></span></font></font></font></span><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Longitude:
+6° 07' 53&quot; Est</b></font></font></font></p>
+<p class="western" align="justify" style="margin-left: 1.27cm; margin-top: 0.64cm; margin-bottom: 0.21cm">
+<br/>
+<br/>
+
+</p>
+<p class="western" align="justify" style="margin-top: 0.64cm; margin-bottom: 0.21cm">
+<span style="font-variant: normal"><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><b>Adresse
+et Contact</b></span></span></font></font></font></span></p>
+<ul>
+	<li><p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+	<font face="Roboto"><font size="3" style="font-size: 13pt">Adresse
+	physique : Pont des Amours, Quai Napoléon III, 74000 Annecy, France</font></font></p></li>
+</ul>
+<p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+<strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal"><b>Office
+de Tourisme du Lac d'Annecy </b></span></font></font></font></strong>
+</p>
+<ul>
+	<li><p class="western" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">Adresse</span></font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">
+	: 1 rue Jean-Jaurès, Centre Bonlieu, 74000 Annecy, France</span></font></font></p></li>
+	<li><p class="western" style="margin-bottom: 0cm"><strong><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">Téléphone</span></font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">
+	: +33 (0)4 50 45 00 33</span></font></font></p></li>
+	<li><p class="western"><strong><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">Courriel</span></font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">
+	: info@lac-annecy.com</span></font></font></p></li>
+</ul>
+<ul>
+	<li><p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+	<font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal"><b>Site
+	internet de l'</b></span></font></font><strong><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal"><b>OT
+	du Lac d'Annecy</b></span></font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal"><b>
+	: </b></span></font></font>
+	</p></li>
+</ul>
+<p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+<font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal"><span style="text-decoration: none"><b>	<a href="https://www.lac-annecy.com/" target="_new">www.lac-annecy.com</a></b></span></span></font></font></font><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal"><span style="text-decoration: none"><b>
+</b></span></span></font></font>
+</p>
+<ol>
+	<ol>
+		<ol>
+			<ol>
+				<li><h4 class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+				<strong><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal"><b>Horaires
+				d'Ouverture de l’OT du Lac d'Annecy 2025 :</b></span></font></font></strong></h4></li>
+			</ol>
+		</ol>
+	</ol>
+</ol>
+<ul>
+	<li><p class="western"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">Du
+	02/01 au 13/04/2025</span></font></font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">
+	: Fermé le dimanche.<br/>
+Lundi au samedi : 9h00-12h30 et
+	13h45-18h00.</span></font></font></p></li>
+	<li><p class="western"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">Du
+	14/04 au 08/06/2025</span></font></font></font></strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">
+	</span></font></font></font><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">:
+	Tous les jours.<br/>
+Lundi au dimanche et jours fériés :
+	9h00-12h30 et 13h45-18h00.</span></font></font></p></li>
+	<li><p class="western"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">Du
+	09/06 au 31/08/2025</span></font></font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">
+	: Tous les jours.<br/>
+Lundi au samedi : 9h00-18h30 / Dimanche et
+	jours fériés : 9h00-12h30 et 13h45-18h00.</span></font></font></p></li>
+	<li><p class="western"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">Du
+	01/09 au 30/09/2025</span></font></font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">
+	: Tous les jours.<br/>
+Lundi au dimanche : 9h00-12h30 et
+	13h45-18h00.</span></font></font></p></li>
+	<li><p class="western"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">Du
+	01/10 au 31/12/2025</span></font></font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">
+	: Fermé le dimanche.<br/>
+Lundi au samedi : 9h00-12h30 et
+	13h45-18h00 / Ouvert les dimanches 7, 14 et 21 décembre de
+	9h30-12h30.</span></font></font></p></li>
+</ul>
+<ol>
+	<ol>
+		<ol>
+			<ol>
+				<li><h4 class="western"><strong><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal"><b>Services
+				:</b></span></font></font></strong></h4></li>
+			</ol>
+		</ol>
+	</ol>
+</ol>
+<ul>
+	<li><p class="western" style="margin-bottom: 0cm"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">Documentation
+	touristique</span></font></font></font></strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">
+	</span></font></font></font><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">:
+	Brochures et cartes disponibles.</span></font></font></p></li>
+	<li><p class="western" style="margin-bottom: 0cm"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">Vente
+	de billets</span></font></font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">
+	: Activités, visites guidées et transports.</span></font></font></p></li>
+	<li><p class="western" style="margin-bottom: 0cm"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">Conseils
+	personnalisés</span></font></font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">
+	: Équipe à disposition pour planifier votre séjour.</span></font></font></p></li>
+	<li><p class="western"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">Accès
+	internet</span></font></font></font></strong><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">
+	: WIFI gratuit.</span></font></font></p></li>
+</ul>
+<ol>
+	<ol>
+		<ol>
+			<ol>
+				<li><h4 class="western"><strong><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal"><b>Accessibilité
+				:</b></span></font></font></strong></h4></li>
+			</ol>
+		</ol>
+	</ol>
+</ol>
+<ul>
+	<li><p class="western"><strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">Accès
+	adapté</span></font></font></font></strong><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">
+	</span></font></font></font><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="font-style: normal">:
+	Pour les personnes à mobilité réduite et les fauteuils roulants.</span></font></font></p></li>
+</ul>
+<p class="western" style="font-style: normal; border: 1px solid #e5e7eb; padding: 0.04cm">
+<br/>
+<br/>
+
+</p>
+<p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+<font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Horaires
+d'Ouverture</b></font></font></font></p>
+<ul>
+	<li><p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+	<font face="Roboto"><font size="3" style="font-size: 13pt">Ouvert
+	toute l'année, 24 heures sur 24, 7 jours sur 7</font></font></p></li>
+	<li><p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+	<font face="Roboto"><font size="3" style="font-size: 13pt">Accès
+	libre et gratuit</font></font></p></li>
+</ul>
+<p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+<font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Tarifs</b></font></font></font></p>
+<ul>
+	<li><p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+	<font face="Roboto"><font size="3" style="font-size: 13pt">Entrée
+	gratuite</font></font></p></li>
+</ul>
+<p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+<font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Accessibilité</b></font></font></font></p>
+<ul>
+	<li><p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+	<font face="Roboto"><font size="3" style="font-size: 13pt">Accessible
+	aux piétons et aux cyclistes (qui doivent mettre pied à terre)</font></font></p></li>
+	<li><p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+	<font face="Roboto"><font size="3" style="font-size: 13pt">Rampes
+	d'accès pour les poussettes et les fauteuils roulants</font></font></p></li>
+	<li><p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+	<font face="Roboto"><font size="3" style="font-size: 13pt">Parking
+	de la mairie et parking Bonlieu à moins de 250m</font></font></p></li>
+</ul>
+<p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+<font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Visites</b></font></font></font></p>
+<ul>
+	<li><p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+	<font face="Roboto"><font size="3" style="font-size: 13pt">Visite
+	libre</font></font></p></li>
+	<li><p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+	<font face="Roboto"><font size="3" style="font-size: 13pt">Durée
+	moyenne de visite : 10-15 minutes</font></font></p></li>
+	<li><p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+	<font face="Roboto"><font size="3" style="font-size: 13pt">Point de
+	vue idéal pour les photos, notamment au lever et au coucher du
+	soleil</font></font></p></li>
+</ul>
+<p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+<font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Services</b></font></font></font></p>
+<ul>
+	<li><p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+	<font face="Roboto"><font size="3" style="font-size: 13pt">Bancs à
+	proximité pour se reposer</font></font></p></li>
+	<li><p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+	<font face="Roboto"><font size="3" style="font-size: 13pt">Location
+	de pédalos de chaque côté du pont en été</font></font></p></li>
+	<li><p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+	<font face="Roboto"><font size="3" style="font-size: 13pt">Port pour
+	les barques touristiques</font></font></p></li>
+</ul>
+<p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+<font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Attractions
+à proximité</b></font></font></font></p>
+<ul>
+	<li><p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+	<font face="Roboto"><font size="3" style="font-size: 13pt">Jardins
+	de l'Europe</font></font></p></li>
+	<li><p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+	<font face="Roboto"><font size="3" style="font-size: 13pt">Esplanade
+	du Pâquier</font></font></p></li>
+	<li><p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+	<font face="Roboto"><font size="3" style="font-size: 13pt">Lac
+	d'Annecy</font></font></p></li>
+	<li><p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+	<font face="Roboto"><font size="3" style="font-size: 13pt">Vieille
+	ville d'Annecy (à 10 minutes à pied)</font></font></p></li>
+</ul>
+<p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+<font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><b>Langues
+des panneaux d'information</b></font></font></font></p>
+<ul>
+	<li><p class="western" style="border: 1px solid #e5e7eb; padding: 0.04cm">
+	<font face="Roboto"><font size="3" style="font-size: 13pt">Français</font></font></p></li>
+</ul>
+<p class="western" align="justify" style="margin-top: 0.64cm; margin-bottom: 0.21cm">
+<br/>
+<br/>
+
+</p>
+<h2 class="western" align="justify" style="margin-top: 0.64cm; margin-bottom: 0.21cm">
+<span style="font-variant: normal"><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><b>CONTENUS
+DIGITAUX A DÉCOUVRIR</b></span></span></font></font></font></span></h2>
+<p class="western" style="margin-bottom: 0.28cm"><br/>
+<br/>
+
+</p>
+<h1 class="western" align="justify" style="margin-top: 0cm; margin-bottom: 0cm; background: #0f0f0f">
+<span style="font-variant: normal"><font color="#f1f1f1"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><b>WALKING
+TOUR | Love 💕 bridge ￼| Le Pont Des Amours | Most Tourist ￼
+Favourite￼ | ANNECY RAC🇨🇭#33# </b></span></span></font></font></font></span><span style="font-variant: normal"><font color="#f1f1f1"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><span style="font-weight: normal">/
+Temps de lecture : 6.56 minutes</span></span></span></font></font></font></span></h1>
+<p class="western" align="justify" style="margin-bottom: 0cm"><span style="font-variant: normal"><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><span style="font-weight: normal">Source
+: </span></span></span></font></font></font></span><font color="#467886"><a href="https://www.youtube.com/@RoadandCity"><span style="font-variant: normal"><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="letter-spacing: normal"><span lang="fr-FR"><span style="font-style: normal"><span style="text-decoration: none"><span style="font-weight: normal">Road
+and City</span></span></span></span></span></font></font></font></span></a></font><span style="font-variant: normal"><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><span style="font-weight: normal">
+ : </span></span></span></font></font></font></span><font color="#467886"><a href="https://www.youtube.com/watch?v=3FmCwwDS5nU"><span style="font-variant: normal"><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><span style="text-decoration: none"><b>https://www.youtube.com/watch?v=3FmCwwDS5nU</b></span></span></span></font></font></font></span></a></font></p>
+<p class="western" align="justify" style="font-variant: normal; font-style: normal; font-weight: normal; margin-bottom: 0cm">
+<br/>
+
+</p>
+<p class="western" align="justify" style="font-variant: normal; font-style: normal; font-weight: normal; margin-bottom: 0cm">
+<br/>
+
+</p>
+<h1 class="western" align="justify" style="margin-top: 0cm; margin-bottom: 0cm; background: #0f0f0f">
+<span style="font-variant: normal"><font color="#f1f1f1"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><b>Annecy
+- Drone in Motion </b></span></span></font></font></font></span><span style="font-variant: normal"><font color="#f1f1f1"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><span style="font-weight: normal">/
+Temps de lecture : 2.08 minutes</span></span></span></font></font></font></span></h1>
+<p class="western" align="justify" style="margin-bottom: 0cm"><font color="#467886"><span style="font-variant: normal"><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><span style="text-decoration: none"><span style="font-weight: normal">Source
+: </span></span></span></span></font></font></font></span></font><font color="#467886"><a href="https://www.youtube.com/@YannickCerrutti"><span style="font-variant: normal"><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="letter-spacing: normal"><span lang="fr-FR"><span style="font-style: normal"><span style="text-decoration: none"><span style="font-weight: normal">Yannick
+Cerrutti</span></span></span></span></span></font></font></font></span></a></font><font color="#467886"><span style="font-variant: normal"><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><span style="text-decoration: none"><span style="font-weight: normal">
+ : </span></span></span></span></font></font></font></span></font><font color="#467886"><a href="https://www.youtube.com/watch?v=ILHIo2OdWwE"><span style="font-variant: normal"><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><span style="text-decoration: none"><b>https://www.youtube.com/watch?v=ILHIo2OdWwE</b></span></span></span></font></font></font></span></a></font></p>
+<p class="western" align="justify" style="font-variant: normal; font-style: normal; font-weight: normal; margin-bottom: 0cm; text-decoration: none">
+<br/>
+
+</p>
+<p class="western" align="justify" style="font-variant: normal; font-style: normal; font-weight: normal; margin-bottom: 0cm">
+<br/>
+
+</p>
+<h1 class="western" align="justify" style="margin-top: 0cm; margin-bottom: 0cm; background: #0f0f0f">
+<span style="font-variant: normal"><font color="#f1f1f1"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><b>LE
+PONT DES AMOURS </b></span></span></font></font></font></span><span style="font-variant: normal"><font color="#f1f1f1"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><span style="font-weight: normal">/
+Temps de lecture : 2.39 minutes</span></span></span></font></font></font></span></h1>
+<p class="western" align="justify" style="margin-bottom: 0cm"><font color="#467886"><span style="font-variant: normal"><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><span style="text-decoration: none"><span style="font-weight: normal">Source
+: </span></span></span></span></font></font></font></span></font><font color="#467886"><a href="https://www.youtube.com/@ambiancelocaleannecy6556"><span style="font-variant: normal"><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="letter-spacing: normal"><span lang="fr-FR"><span style="font-style: normal"><span style="text-decoration: none"><span style="font-weight: normal">Ambiance
+Locale ANNECY</span></span></span></span></span></font></font></font></span></a></font><font color="#467886"><span style="font-variant: normal"><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt"><span style="letter-spacing: normal"><span lang="fr-FR"><span style="font-style: normal"><span style="text-decoration: none"><span style="font-weight: normal">
+</span></span></span></span></span></font></font></font></span></font><font color="#467886"><span style="font-variant: normal"><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><span style="text-decoration: none"><span style="font-weight: normal">:</span></span></span></span></font></font></font></span></font></p>
+<p class="western" align="justify" style="margin-bottom: 0cm"><font color="#467886"><a href="https://www.youtube.com/watch?v=iEsQKCcqbaY"><span style="font-variant: normal"><font color="#467886"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><span style="text-decoration: none"><b>https://www.youtube.com/watch?v=iEsQKCcqbaY</b></span></span></span></font></font></font></span></a></font></p>
+<p class="western" align="justify" style="font-variant: normal; font-style: normal; font-weight: normal; margin-bottom: 0cm; text-decoration: none">
+<br/>
+
+</p>
+<p class="western" align="justify" style="font-variant: normal; font-style: normal; font-weight: normal; margin-bottom: 0cm">
+<br/>
+
+</p>
+<h2 class="western" align="justify" style="margin-top: 0.64cm; margin-bottom: 0.21cm">
+<span style="font-variant: normal"><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><b>INFORMATIONS
+COROLLAIRES A DÉCOUVRIR</b></span></span></font></font></font></span></h2>
+<p class="western" align="justify" style="margin-bottom: 0cm"><br/>
+
+</p>
+<p class="western" align="justify" style="margin-bottom: 0cm"><br/>
+
+</p>
+<p class="western" align="justify" style="margin-bottom: 0cm"><a href="https://www.ripaille.fr/autour-de-ripaille/"><span style="font-variant: normal"><font color="#000000"><span style="text-decoration: none"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><b>Les
+Jardins de l'Europe :</b></span></span></font></font></span></font></span></a><font color="#467886"><span style="font-variant: normal"><font color="#000000"><span style="text-decoration: none"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><span style="font-weight: normal">
+Un parc paysager situé à l'extrémité du Pont des Amours, offrant
+une promenade ombragée et des vues pittoresques sur le lac d'Annecy.</span></span></span></font></font></span></font></span></font></p>
+<p class="western" align="justify" style="font-variant: normal; font-style: normal; font-weight: normal; margin-bottom: 0cm; text-decoration: none">
+<br/>
+
+</p>
+<p class="western" align="justify"><strong><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt">Le
+Palais de l'Isle :</font></font></font></strong><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt">
+Une ancienne prison médiévale en forme de proue de navire, située
+à quelques pas du Pont des Amours dans la vieille ville d'Annecy.</font></font></font></p>
+<p class="western" align="justify"><br/>
+<br/>
+
+</p>
+<p class="western" align="justify"><strong><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt">L'Église
+Saint-Maurice :</font></font></font></strong><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt">
+La plus ancienne église d'Annecy, une structure gothique datant du
+XVe siècle, témoin de la riche histoire de la ville.</font></font></font></p>
+<p class="western" align="justify"><br/>
+<br/>
+
+</p>
+<p class="western" align="justify"><strong><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt">Le
+Pâquier :</font></font></font></strong><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt">
+Une vaste esplanade verdoyante au bord du lac, idéale pour les
+pique-niques et les activités de plein air, accessible depuis le
+Pont des Amours.</font></font></font></p>
+<p class="western" align="justify"><br/>
+<br/>
+
+</p>
+<p class="western" align="justify"><strong><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt">Le
+Canal du Vassé :</font></font></font></strong><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt">
+Un pittoresque canal qui s'écoule paisiblement sous le Pont des
+Amours, bordé de barques traditionnelles et d'une magnifique voûte
+de platanes.</font></font></font></p>
+<p class="western"><br/>
+<br/>
+
+</p>
+<p class="western" align="justify" style="font-variant: normal; font-style: normal; font-weight: normal; margin-bottom: 0cm; text-decoration: none">
+<br/>
+
+</p>
+<p class="western" align="justify" style="margin-bottom: 0cm"><br/>
+
+</p>
+<p class="western" align="justify" style="margin-bottom: 0cm"><br/>
+
+</p>
+<h2 class="western" align="justify" style="margin-top: 0cm; margin-bottom: 0.85cm; background: #ffffff">
+<span style="font-variant: normal"><font color="#000000"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><span style="font-style: normal"><span style="text-decoration: none"><b>NOTICE
+VIVVOY – 00000121-25022025- 74000 - ANNECY-LEPONTDESAMOURS - ©
+VIVOPRESS 02.2025</b></span></span></span></font></font></font></span></h2>
+<p class="western" align="center" style="margin-bottom: 0.28cm"><font color="#eb350c"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><b>ACTIONS</b></span></font></font></font></p>
+<p class="western" align="center" style="margin-bottom: 0.28cm"><font color="#eb350c"><font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><b>AIMER
+// PARTAGER // CONTRIBUER</b></span></font></font></font></p>
+<p class="western" align="center" style="margin-bottom: 0.28cm"><font color="#eb350c">
+<font face="Roboto"><font size="3" style="font-size: 13pt"><span lang="fr-FR"><b>IMPRIMER
+// ENREGISTRER // COMPLETER // AJOUTER</b></span></font></font></font></p>
+<p class="western" align="center" style="font-variant: normal; font-style: normal; font-weight: normal; margin-bottom: 0.28cm">
+<br/>
+<br/>
+
+</p>
+<p class="western" style="margin-bottom: 0.28cm"><br/>
+<br/>
+
+</p>
+<div title="footer">
+	<table width="601" cellpadding="7" cellspacing="0">
+		<col width="186"/>
+		<col width="186"/>
+		<col width="186"/>
+		<tr valign="top">
+			<td width="186" height="9" style="border: none; padding: 0cm"><p align="left" style="orphans: 2; widows: 2; margin-left: -0.2cm">
+				<br/>
+
+				</p>
+			</td>
+			<td width="186" style="border: none; padding: 0cm"><p align="center" style="orphans: 2; widows: 2">
+				<br/>
+
+				</p>
+			</td>
+			<td width="186" style="border: none; padding: 0cm"><p align="right" style="orphans: 2; widows: 2; margin-right: -0.2cm">
+				<br/>
+
+				</p>
+			</td>
+		</tr>
+	</table>
+	<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+	</p>
+</div>
+</body>
+</html>
